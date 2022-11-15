@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddContactActivity::class.java)
             startActivity(intent)
         }
+
         binding.srlContacts.setOnRefreshListener {
             findPhonebook()
         }
