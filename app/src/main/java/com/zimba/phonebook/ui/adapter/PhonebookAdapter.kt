@@ -1,4 +1,4 @@
-package com.zimba.phonebook.ui
+package com.zimba.phonebook.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
